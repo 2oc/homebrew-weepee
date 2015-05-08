@@ -36,8 +36,8 @@ class Openssh < Formula
   # Patch for U2F
   if build.with? "u2f"
     patch do
-      url "https://gist.githubusercontent.com/gvangool/c76b83f9c20cbe99a80d/raw/6aab06b645aaa704bc39823c15e22c3103ae45b1/patch-for-u2f.diff"
-      sha1 "877023ec33ff85bb724cbf5eef93e292bcc3c54f"
+      url "https://gist.githubusercontent.com/gvangool/c76b83f9c20cbe99a80d/raw/f4912730ecabeac4aa5916d63f22566e70967da6/patch-for-u2f.diff"
+      sha1 "f36cb6bff8a68f311ae5e8b69e8913656486f65a"
     end
   end
 
